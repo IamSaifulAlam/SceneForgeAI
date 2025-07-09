@@ -1,0 +1,33 @@
+
+[
+  {
+    "icon": "Lightbulb",
+    "title": "1. Spark an Idea",
+    "description": "Start with a core concept. It can be a simple phrase like 'a robot finds a cat' or a detailed paragraph. If you're stuck, leave it blank and let the AI surprise you."
+  },
+  {
+    "icon": "SlidersHorizontal",
+    "title": "2. Choose Your Style",
+    "description": "Use the main dropdowns to set the creative foundation. Select a location, mood, lighting, and camera style to guide the AI's core direction."
+  },
+  {
+    "icon": "Settings2",
+    "title": "3. Refine with Advanced Settings",
+    "description": "Open the 'Advanced Creative Settings' accordion to add layers of detail. Specify weather, era, special effects, and more for a highly customized scene."
+  },
+  {
+    "icon": "Wand2",
+    "title": "4. Generate Your Scene",
+    "description": "Click the 'Generate Scene' button. Our AI will process your inputs to craft a series of detailed scenes and a master template for visual consistency."
+  },
+  {
+    "icon": "RefreshCw",
+    "title": "5. Review & Iterate",
+    "description": "Analyze the generated output. Use the copy, regenerate, and delete buttons on each scene card to refine your story with precision. Provide feedback to the AI for targeted changes."
+  },
+  {
+    "icon": "Download",
+    "title": "6. Export & Create",
+    "description": "Once you're satisfied, export your script as a JSON or formatted TXT file, ready to be used in AI video tools or shared with your creative team."
+  }
+]

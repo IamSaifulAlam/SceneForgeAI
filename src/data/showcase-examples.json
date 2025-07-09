@@ -1,0 +1,43 @@
+
+[
+  {
+    "title": "Cyberpunk Detective",
+    "description": "A rain-slicked neon street in a futuristic city. A lone detective in a trench coat watches a holographic ad flicker and die, their face illuminated by the dying light.",
+    "attributes": ["Cyberpunk", "Film Noir", "Rainy"]
+  },
+  {
+    "title": "Lost Astronaut",
+    "description": "An astronaut, tethered to a silent, drifting spaceship, gazes at a vibrant, swirling nebula. The reflection of distant galaxies fills their helmet visor in a stunning close-up.",
+    "attributes": ["Sci-Fi", "Contemplative", "Space"]
+  },
+  {
+    "title": "The Last Library",
+    "description": "In a post-apocalyptic world, a young survivor discovers a hidden, dusty library. Beams of light from a broken ceiling illuminate towering shelves of intact books.",
+    "attributes": ["Post-Apocalyptic", "Hopeful", "Discovery"]
+  },
+  {
+    "title": "Mystical Encounter",
+    "description": "A dense, ancient forest where moonlight pierces the canopy, revealing glowing mushrooms. A mystical, deer-like creature with luminescent antlers peeks from behind a gnarled tree.",
+    "attributes": ["Fantasy", "Magical", "Mysterious"]
+  },
+  {
+    "title": "High Noon Duel",
+    "description": "The sun beats down on a deserted western town's main street. Two gunslingers stand poised, hands hovering over their holsters, as a tumbleweed rolls by.",
+    "attributes": ["Western", "Tense", "Dramatic"]
+  },
+  {
+    "title": "Sunken City",
+    "description": "A submersible's lights cut through the deep ocean gloom, revealing the majestic, coral-encrusted ruins of a lost underwater city. A giant squid drifts past a towering statue.",
+    "attributes": ["Adventure", "Underwater", "Discovery"]
+  },
+  {
+    "title": "Gladiator's Resolve",
+    "description": "Inside the Colosseum in ancient Rome, a gladiator looks up from the dusty arena floor at the roaring crowd, their expression a mixture of fear and determination.",
+    "attributes": ["Historical", "Epic", "Ancient Rome"]
+  },
+  {
+    "title": "Gothic Haunting",
+    "description": "A lone candle flickers in a vast, cobweb-covered gothic library. A ghostly figure drifts between the towering bookshelves, its form translucent against the moonlight.",
+    "attributes": ["Horror", "Gothic", "Supernatural"]
+  }
+]

@@ -1,0 +1,7 @@
+# Block all crawlers for all pages by default
+User-agent: *
+Disallow: /
+
+# Allow access only to the homepage
+User-agent: *
+Allow: /$

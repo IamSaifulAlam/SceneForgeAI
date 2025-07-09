@@ -1,0 +1,33 @@
+
+[
+  {
+    "icon": "Sparkles",
+    "title": "AI-Powered Scenes",
+    "description": "Leverage cutting-edge AI to generate creative and coherent script scenes from your simple descriptions."
+  },
+  {
+    "icon": "Languages",
+    "title": "Dual-Language Output",
+    "description": "Get your script in your selected language plus an English version, ready for AI video tools."
+  },
+  {
+    "icon": "FileEdit",
+    "title": "Iterative Editing",
+    "description": "Refine your story with powerful tools. Regenerate individual scenes with feedback, copy scenes to your clipboard, or delete them to perfect your narrative."
+  },
+  {
+    "icon": "Clapperboard",
+    "title": "Intuitive Scripting",
+    "description": "A clean, user-friendly interface that makes the scriptwriting process smooth and enjoyable."
+  },
+  {
+    "icon": "ImageIcon",
+    "title": "Instant Visualization",
+    "description": "Generate a stunning visual concept for any scene with a single click, bringing your description to life."
+  },
+  {
+    "icon": "Download",
+    "title": "Easy Export",
+    "description": "Export your generated scripts in common text formats with a single click."
+  }
+]

@@ -1,0 +1,168 @@
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+body {
+  font-family: 'Inter', sans-serif;
+}
+
+@layer base {
+  :root {
+    --background: 0 0% 100%;
+    --foreground: 240 10% 3.9%;
+    --card: 0 0% 100%;
+    --card-foreground: 240 10% 3.9%;
+    --popover: 0 0% 100%;
+    --popover-foreground: 240 10% 3.9%;
+    --primary: 33 100% 50%;
+    --primary-foreground: 210 40% 98%;
+    --secondary: 240 4.8% 95.9%;
+    --secondary-foreground: 240 5.9% 10%;
+    --muted: 240 4.8% 95.9%;
+    --muted-foreground: 240 3.8% 46.1%;
+    --accent: 339 94% 48%;
+    --accent-foreground: 355.7 100% 97.3%;
+    --destructive: 0 84.2% 60.2%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 5.9% 90%;
+    --input: 240 5.9% 90%;
+    --ring: 33 100% 50%;
+    --chart-1: 12 76% 61%;
+    --chart-2: 173 58% 39%;
+    --chart-3: 197 37% 24%;
+    --chart-4: 43 74% 66%;
+    --chart-5: 27 87% 67%;
+    --radius: 0.5rem;
+  }
+  .dark {
+    --background: 240 9% 15%;
+    --foreground: 0 0% 98%;
+    --card: 240 8% 19%;
+    --card-foreground: 0 0% 98%;
+    --popover: 240 9% 15%;
+    --popover-foreground: 0 0% 98%;
+    --primary: 33 100% 50%;
+    --primary-foreground: 35 100% 95%;
+    --secondary: 240 3.7% 15.9%;
+    --secondary-foreground: 0 0% 98%;
+    --muted: 240 3.7% 15.9%;
+    --muted-foreground: 0 0% 63.9%;
+    --accent: 339 94% 48%;
+    --accent-foreground: 355.7 100% 97.3%;
+    --destructive: 0 62.8% 30.6%;
+    --destructive-foreground: 0 0% 98%;
+    --border: 240 4% 26%;
+    --input: 240 4% 26%;
+    --ring: 33 100% 50%;
+    --chart-1: 220 70% 50%;
+    --chart-2: 160 60% 45%;
+    --chart-3: 30 80% 55%;
+    --chart-4: 280 65% 60%;
+    --chart-5: 340 75% 55%;
+  }
+}
+
+@layer base {
+  * {
+    @apply border-border;
+  }
+  body {
+    @apply bg-background text-foreground;
+  }
+  ::selection {
+    background-color: hsl(var(--primary) / 0.9);
+    color: hsl(var(--primary-foreground));
+  }
+  ::-moz-selection { /* Firefox */
+    background-color: hsl(var(--primary) / 0.9);
+    color: hsl(var(--primary-foreground));
+  }
+  textarea::-webkit-resizer {
+    display: none;
+  }
+  ::-webkit-scrollbar {
+    width: 4px;
+    height: 4px;
+  }
+  ::-webkit-scrollbar-track {
+    background: transparent;
+  }
+  ::-webkit-scrollbar-thumb {
+    background: hsl(var(--accent));
+    border-radius: 10px;
+  }
+  ::-webkit-scrollbar-thumb:hover {
+    background: hsl(var(--accent) / 0.8);
+  }
+
+  @keyframes bounce-and-block {
+    0%, 100% {
+      transform: translateX(1rem) translateY(0);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    25% {
+      transform: translateX(9.5rem) translateY(-5rem);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+    50% {
+      transform: translateX(9.5rem) translateY(0);
+      animation-timing-function: cubic-bezier(0.8, 0, 1, 1);
+    }
+    52% {
+      transform: translateX(9rem) translateY(0);
+    }
+    75% {
+      transform: translateX(1rem) translateY(-5rem);
+      animation-timing-function: cubic-bezier(0, 0, 0.2, 1);
+    }
+  }
+}
+
+@layer utilities {
+  .header-gradient-border {
+    border-bottom-width: 1px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, 
+      hsl(var(--background) / 0), 
+      hsl(var(--primary) / 0.5), 
+      hsl(var(--accent) / 0.5), 
+      hsl(var(--primary) / 0.5), 
+      hsl(var(--background) / 0));
+  }
+
+  .card-gradient-border {
+    border-bottom-width: 1px;
+    border-image-slice: 1;
+    border-image-source: linear-gradient(to right, 
+      hsl(var(--background) / 0), 
+      hsl(var(--primary) / 0.5), 
+      hsl(var(--accent) / 0.5), 
+      hsl(var(--primary) / 0.5), 
+      hsl(var(--background) / 0));
+  }
+
+  .custom-textarea-resizer {
+    position: absolute;
+    bottom: -0.5px;
+    right: -0.5px;
+    cursor: se-resize;
+    opacity: 0.8;
+    transition: opacity 0.2s;
+  }
+  
+  .custom-textarea-resizer:hover {
+    opacity: 1;
+  }
+
+  @keyframes blink {
+    50% { opacity: 0; }
+  }
+  .animate-blink {
+    animation: blink 1s step-end infinite;
+  }
+
+  .animate-bounce-block {
+    animation: bounce-and-block 3s infinite;
+  }
+}

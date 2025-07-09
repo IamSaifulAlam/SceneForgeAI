@@ -1,0 +1,110 @@
+
+{
+  "voice_language": [
+    { "label": "English", "prompt": "English" },
+    { "label": "Spanish", "prompt": "Spanish" },
+    { "label": "French", "prompt": "French" },
+    { "label": "German", "prompt": "German" },
+    { "label": "Japanese", "prompt": "Japanese" },
+    { "label": "Mandarin Chinese", "prompt": "Mandarin Chinese" },
+    { "label": "Russian", "prompt": "Russian" },
+    { "label": "Arabic", "prompt": "Arabic" },
+    { "label": "Bangla", "prompt": "Bangla" },
+    { "label": "Hindi", "prompt": "Hindi" },
+    { "label": "Portuguese", "prompt": "Portuguese" },
+    { "label": "Korean", "prompt": "Korean" }
+  ],
+  "narrative_type": [
+    { "label": "Character dialogue only", "prompt": "with a focus on character dialogue" },
+    { "label": "Silent with on-screen text", "prompt": "as a silent scene with on-screen text for narration" },
+    { "label": "Natural environmental sound", "prompt": "emphasizing natural environmental sounds with no dialogue" }
+  ],
+  "character_consistency": [
+    { "label": "Same character throughout", "prompt": "featuring the same character consistently across all scenes" },
+    { "label": "Character ages/changes", "prompt": "showing a character who visibly ages or changes between scenes" },
+    { "label": "Multiple different characters", "prompt": "introducing multiple different characters in various scenes" },
+    { "label": "Character with costume changes", "prompt": "with a character who undergoes significant costume or appearance changes" },
+    { "label": "Consistent traits/mannerisms", "prompt": "maintaining consistent character traits and mannerisms throughout" }
+  ],
+  "location": [
+    { "label": "Rural School Field", "prompt": "in an old rural school field" },
+    { "label": "City Street at Night", "prompt": "on a dimly lit city street at night" },
+    { "label": "Futuristic Tokyo Rooftop", "prompt": "on a sleek, neon-lit rooftop in futuristic Tokyo" },
+    { "label": "Fantasy Forest", "prompt": "in a magical fantasy forest glowing with strange lights" },
+    { "label": "Abandoned Warehouse", "prompt": "in an abandoned industrial warehouse" },
+    { "label": "Snowy Mountain Peak", "prompt": "on a remote snowy mountain peak" },
+    { "label": "Forgotten Temple", "prompt": "in a forgotten temple deep in the Amazon jungle" },
+    { "label": "Quiet Bookstore", "prompt": "in a quiet, dusty bookstore on a rainy afternoon" },
+    { "label": "Starship Bridge", "prompt": "on the command bridge of a starship exploring a nebula" }
+  ],
+  "mood": [
+    { "label": "Nostalgic and Cinematic", "prompt": "with a nostalgic and cinematic tone" },
+    { "label": "Dark and Mysterious", "prompt": "with a dark and mysterious mood" },
+    { "label": "Bright and Cheerful", "prompt": "with a bright and cheerful atmosphere" },
+    { "label": "Surreal and Dreamlike", "prompt": "with a surreal and dreamlike feeling" },
+    { "label": "Tense and Suspenseful", "prompt": "with a tense and suspenseful atmosphere" },
+    { "label": "Hopeful and Optimistic", "prompt": "with a hopeful and optimistic feeling" }
+  ],
+  "lighting": [
+    { "label": "Golden Hour", "prompt": "bathed in warm golden hour light" },
+    { "label": "Natural Window Light", "prompt": "lit naturally through a large window" },
+    { "label": "Neon City Lights", "prompt": "illuminated by vibrant neon city lights" },
+    { "label": "Magical Forest Glow", "prompt": "glowing with bioluminescent forest light" },
+    { "label": "Harsh Moonlight", "prompt": "under the harsh light of a full moon" }
+  ],
+  "camera": [
+    { "label": "Slow Zoom In", "prompt": "captured with a slow zoom-in shot" },
+    { "label": "Drone Aerial Shot", "prompt": "from a high-angle drone aerial shot" },
+    { "label": "Tracking Shot from Behind", "prompt": "following the character with a tracking shot from behind" },
+    { "label": "POV (First-person View)", "prompt": "shot from a first-person perspective" },
+    { "label": "Dutch Angle", "prompt": "using a dramatic Dutch angle to create unease" },
+    { "label": "Dolly Zoom", "prompt": "with a dolly zoom effect to create a sense of vertigo" }
+  ],
+  "visual style": [
+    { "label": "Photorealistic", "prompt": "in a highly detailed photorealistic look" },
+    { "label": "Hand-drawn Animation", "prompt": "rendered in a hand-drawn animation style" },
+    { "label": "Cyberpunk", "prompt": "in a neon-lit cyberpunk aesthetic" },
+    { "label": "Fantasy Illustration", "prompt": "as a vibrant fantasy-style illustration" },
+    { "label": "Vintage Film Noir", "prompt": "in a high-contrast, black-and-white film noir style" },
+    { "label": "Claymation", "prompt": "in a stop-motion claymation style" }
+  ],
+  "weather": [
+    { "label": "Rainstorm", "prompt": "during a heavy rainstorm" },
+    { "label": "Light Snowfall", "prompt": "with gentle snowflakes falling" },
+    { "label": "Foggy Morning", "prompt": "in the midst of a foggy morning" },
+    { "label": "Clear Starry Night", "prompt": "under a clear star-filled sky" },
+    { "label": "Sweltering Heat", "prompt": "with visible heat haze on a sweltering day" }
+  ],
+  "sound": [
+    { "label": "Silence", "prompt": "in complete silence" },
+    { "label": "Forest Ambience", "prompt": "with soft forest ambience and distant animal sounds" },
+    { "label": "City Traffic", "prompt": "with background city traffic sounds" },
+    { "label": "Mechanical Humming", "prompt": "accompanied by mechanical humming and whirring" },
+    { "label": "Orchestral Score", "prompt": "with a sweeping orchestral score" }
+  ],
+  "time of day": [
+    { "label": "Sunrise", "prompt": "at the break of dawn" },
+    { "label": "Midnight", "prompt": "in the dead of night" },
+    { "label": "Golden Hour", "prompt": "just before sunset in golden light" },
+    { "label": "Twilight", "prompt": "during twilight when the world feels still" }
+  ],
+  "era": [
+    { "label": "Present Day", "prompt": "set in the present day" },
+    { "label": "Dystopian Future", "prompt": "in a grim dystopian future" },
+    { "label": "Medieval Times", "prompt": "during medieval times" },
+    { "label": "Post-apocalyptic", "prompt": "in a post-apocalyptic wasteland" },
+    { "label": "1920s Jazz Age", "prompt": "in the roaring 1920s Jazz Age" }
+  ],
+  "material": [
+    { "label": "Rusted Metal", "prompt": "surrounded by rusted metal and debris" },
+    { "label": "Cracked Stone", "prompt": "on cracked stone ground" },
+    { "label": "Mossy Forest Floor", "prompt": "walking over a moss-covered forest floor" },
+    { "label": "Glass & Neon", "prompt": "reflecting off glass and neon surfaces" }
+  ],
+  "special effects": [
+    { "label": "Slow Motion", "prompt": "with dramatic slow-motion effects" },
+    { "label": "Light Leaks", "prompt": "with artistic light leaks and lens flares" },
+    { "label": "Glitch Effect", "prompt": "with glitch effects and visual distortions" },
+    { "label": "Magic Particles", "prompt": "surrounded by floating magic particles" }
+  ]
+}
