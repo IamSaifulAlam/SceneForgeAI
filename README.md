@@ -2,8 +2,6 @@
 
 Craft compelling script scenes with the power of AI. From a spark of an idea to a full-fledged scene, SceneForge AI provides the tools to bring your creative vision to life.
 
-[![Deploy with Vercel](https://vercel.com/button)](https://vercel.com/new/clone?repository-url=https%3A%2F%2Fgithub.com%2FIamSaifulAlam%2FSceneForgeAI)
-
 ## Key Features
 
 - **AI-Powered Scene Generation**: Leverage Google's Gemini model via Genkit to generate creative and coherent script scenes from simple descriptions.
